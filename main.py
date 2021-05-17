@@ -52,15 +52,15 @@ def vaccineChecker():
                 else:
                     if(msg_c==0):
                         print("\t------------ SEARCHING IN BACKEND----------\n Feel free to work, if we get slot we will notify you with BEEP.")
-                        msg_c==1
+                        msg_c=1
         time.sleep(5)
 
 
 
 def main():
-    while True:
+
         vaccineChecker()
-        time.sleep(5)
+
 
 
 if __name__ == "__main__":
